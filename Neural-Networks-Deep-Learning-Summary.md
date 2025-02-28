@@ -32,6 +32,26 @@ Where:
 The **total parameters** = **53** (we calculated this earlier).  
 
 ---
+## **3️⃣ Activation Functions**  
+Activation functions determine how neurons process input signals. Some commonly used ones are:
+
+### **ReLU (Rectified Linear Unit)**  
+\[ f(x) = \max(0, x) \]  
+- Used in hidden layers.  
+- Keeps positive values as-is, sets negative values to zero.  
+- Helps prevent vanishing gradient problems.
+
+### **Sigmoid**  
+\[ f(x) = \frac{1}{1 + e^{-x}} \]  
+- Used in binary classification problems.  
+- Outputs values between 0 and 1.
+
+### **Softmax**  
+\[ f(x_i) = \frac{e^{x_i}}{\sum_{j=1}^{n} e^{x_j}} \]  
+- Used for multi-class classification.  
+- Converts outputs into probabilities by ensuring they sum up to 1.
+
+---
 
 ## **3️⃣ The Complete Deep Learning Process**  
 Neural networks are not just about defining layers. **Deep learning involves a full pipeline:**  
